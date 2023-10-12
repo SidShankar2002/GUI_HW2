@@ -1,0 +1,178 @@
+/* Resetting block-level HTML5 elements */
+header, hgroup, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+header{
+    /* margin-top: 250px; */
+    background-image:url("sunset.jpg");
+    background-color:hsl(240, 100%, 10%);
+    color: white;
+    padding-bottom: -25px;
+    /* width: 80%; */
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+    
+
+body {
+    background-image:url("ptrbackground.jpg");
+    background-color: #00569f;
+    background-repeat: repeat-x;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav{
+    /* max-width: 50px; */
+    width: 160px;
+    font-weight: 8px;
+    /* float: left; */
+    /* margin: 0px auto; */
+    /* display: inline-block; */
+    vertical-align: top;
+    background-color: skyblue;
+}
+
+
+#wrapper {
+    margin: 0 auto;
+    background-color: skyblue;
+    min-width: 600px;
+    margin-bottom: 25%;
+    width: 80%;
+}
+
+#content ul{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#content li {
+    color: black;
+}
+
+#wrapper ul{
+    padding: 10px;
+    color: #000080;
+    border: #000080;
+}
+
+/* pacific.css */
+
+/* ... (other styles) */
+
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    text-align: left;
+    align-items: center;
+    list-style-type: none;
+    color: navy;
+    font-weight: bold;
+}
+
+nav li img {
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+    display: inline;
+}
+
+nav ul {
+    color: #000080;
+    /* Adjust margin to move it closer to the image */
+    /* vertical-align: top; */
+}
+
+ul li {
+    
+    padding-right: 10%;
+}
+
+img[src="coast.jpg"] {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 125%;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.resort span {
+    color:skyblue;
+}
+
+#content {
+     /* Adjust the padding value to your preference */
+    margin-left: 200px;
+    margin-top: 0; /* Remove the negative margin-top */
+    background-color: white;
+    justify-content: center;
+    float: center;
+    position: static;
+    margin-top: -17.5%;
+    
+}
+
+footer {
+    padding-top: 20px; /* Adjust the padding value to your preference */
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 0; /* Remove the margin-top property */
+}
+
+@media (min-width: 1000px) {
+    #content {
+        margin-top: -10%;
+    }
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+h2 {
+    content: "Enjoy Nature in Luxury"; /* Change the text */
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    color: #3399CC;
+}
+
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+    font-size: 90%;
+    text-align: left;
+}
+
+dt {
+    color: #000033;
+}
+
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
